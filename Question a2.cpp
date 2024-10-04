@@ -37,7 +37,9 @@ if(overdue>0)
 	fineamount=overdue*duration;
 }
 printf("fineamount:ksh%.2lf\n",fineamount);
-
+printf("enter bookID=");
+printf("enter duedate=\n");
+printf("enter returndate=\n");	
 return 0;
 
 }
