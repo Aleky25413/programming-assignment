@@ -3,6 +3,7 @@
 Author: Alexander 
 Reg no.:PA107/G/22514/24
 */
+
 #include<stdio.h>
 #include <math.h>
 int main()
