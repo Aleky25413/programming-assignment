@@ -38,10 +38,11 @@ else
 }
 
 
-printf("fineamount:ksh%.2lf\n",fineamount);
+
 printf("enter bookID=");
 printf("enter duedate=\n");
-printf("enter returndate=\n");	
+printf("enter returndate=\n");
+printf("fineamount:ksh%.2lf\n",fineamount);	
 return 0;
 
 }
