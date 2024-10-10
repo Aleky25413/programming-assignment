@@ -1,3 +1,8 @@
+//program to print Ellectricity bill charges
+/*
+    Name:ALEXERNDER MUTHIANI KITHUNGA
+    Reg:PA107\G\22514\24
+  */  
 #include <stdio.h>
 
 int main() {
