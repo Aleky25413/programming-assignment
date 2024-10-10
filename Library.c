@@ -28,7 +28,7 @@ else if(overdue<=7)
 {
 printf("fineamount=overdue*20");
 }
-else if(overdue<=14)
+else if(overdue>7&& overdue<15)
 {
 	printf("fineamout=overdue*50");
 }
