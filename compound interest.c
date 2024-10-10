@@ -1,3 +1,8 @@
+//program to print compound
+/*
+Name:ALEXANDER MUTHIANI KITHUNGA
+Reg:PA107\G\22514\24
+*/
 #include<stdio.h>
 #include<math.h>
 int main()
