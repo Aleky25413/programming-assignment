@@ -18,7 +18,7 @@ int main()
 	scanf("%f",&time);
 	
 	amount=principal*pow((1+rate/100),time);
-	printf("amount is:%.2lf");
+	printf("amount is:%.2lf",amount);
 	
 	return 0;
 }
