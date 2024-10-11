@@ -17,6 +17,6 @@ int main()
 	scanf("%f",t);
 	
 		si=(r*p*t)/100;
-	printf("enter simpleinterest,si:%.2lf=");	
+	printf("enter simpleinterest,si:%.2lf=",simpleinterest);	
 	return 0;
 }
