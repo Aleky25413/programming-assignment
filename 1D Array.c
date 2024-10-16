@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int i,j;
+	int i;
 	int arr[6]={10,20,30,40,50,60};
 	
 	
