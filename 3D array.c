@@ -11,7 +11,7 @@ int main()
 			for(k=0;k<3;k++){
 
 		
-	printf("marks [%d][%d][%d]=%d\n",i,j,k,marks[i][j]);
+	printf("marks [%d][%d][%d]=%d\n",i,j,k,marks[i][j][k]);
 
 			}
 		}
