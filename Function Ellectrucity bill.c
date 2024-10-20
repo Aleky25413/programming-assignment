@@ -71,5 +71,5 @@ float calculateTotalBill(float charges) {
         totalBill = 100;
     }
 
-    return totalBill;
+    returnÂ 0;
 }
