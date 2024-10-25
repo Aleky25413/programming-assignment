@@ -1,28 +1,26 @@
 #include<stdio.h>
 #include<string.h>
-struct details
+
+struct student
 {
-	char name[25];
-	char registration[15];
-	char email[25];
-	int marks;
+char name[25];
+char reg[15];
+int ID;
+int year;
 };
 int main()
 {
-	struct details student1;
+	struct student ALEX;
+	strcpy(ALEX.name,"ALEX");
+	strcpy(ALEX.reg,"PA107/G/22514\24");
+	ALEX.ID=435627;
+    ALEX.year=1;
 	
-	printf("enter student1.name=");
-	scanf("%s",&student1.name);
-	
-	printf("enter student1.registration=");
-    scanf("%s",&student1.registration);
-    
-    printf(" enter student1.email=");
-	scanf("%s",&student1.email);
-	
-	printf("enter student1.marks=");
-    scanf("%d",&student1.marks);
-    
-    
-	return 0;
+	printf("name: %s\n",ALEX.name);
+		printf("reg:  %s\n",ALEX.reg);
+			printf("ID :%d\n",ALEX.ID);
+				printf("year: %d\n",ALEX.year);
+				
+				return 0;
 }
+
